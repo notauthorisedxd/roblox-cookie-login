@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Roblox Cookie Login",
+    "description": "Log in to Roblox using a .ROBLOSECURITY cookie.",
+    "version": "1.0",
+    "permissions": [
+    "cookies",
+    "storage",
+    "tabs",
+    "activeTab"
+    ],
+    "host_permissions": [
+        "https://www.roblox.com/*"
+    ],
+    "background": {
+      "service_worker": "scripts/background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "assets/roblox.png",
+        "32": "assets/roblox.png",
+        "48": "assets/roblox.png",
+        "128": "assets/roblox.png"
+    }
+  }
+  
